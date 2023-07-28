@@ -1,1 +1,0 @@
-from .name_favorite_song_template import NameFavoriteSongTemplate
