@@ -119,7 +119,7 @@ apology_string = 'Sorry, I\'m having a really hard time right now. ' + \
 state_store = {}
 user_store = defaultdict(dict)
 
-client = pymongo.MongoClient("mongodb+srv://johnnyjana730:kl0EVCDvtajfCgWK@cluster0.cdqflg6.mongodb.net/?retryWrites=true&w=majority", connect=False, server_api=ServerApi('1'))
+client = pymongo.MongoClient("<placeholder>", connect=False, server_api=ServerApi('1'))
 db = client.testdb
 
 
@@ -131,46 +131,38 @@ class StateTable:
         self.debug = debug
         self.c_step = 0
 
-        if self.debug:
-            self.item = json.load(open(f'/home/mo.169/tacobot_v2/state_data/last_con1_cs_t_6_DEBUG.json',))
-            # print('self.item = ', self.item.keys())
-            print('debug last response = ', self.item['response'])
 
     def fetch(self, session_id, creation_date_time):
         #logger.warning(f"state_table fetching last state for session {session_id}, creation_date_time {creation_date_time} from table {self.table_name}")
-        if self.debug:
-            self.debug = False
-            item = json.load(open(f'/home/mo.169/tacobot_v2/state_data/last_con1_cs_t_6_DEBUG.json',))
-            return item
-        else:
-            if session_id is None:
-                return None
-            try:
-                item = None
-                start_time = time.time()
-                timeout = 2 #second
-                # while (item is None and time.time() < start_time + timeout):
-                #     results = db['current_state'].find( { "_id": self.session_id} )
-                #     results = loads(dumps(results))
-                #     if len(results) > 0:
-                #         return results[0]['data']
-                #     else:
-                #         return None
-                # return item
 
-                while (item is None and time.time() < start_time + timeout):
-                    a = list(state_store.keys())[0]
-                    Q = '"'
-                    return state_store[(Q + session_id + Q, creation_date_time)]
-                if item is None:
-                    #logger.error(
-                    #    f"Timed out when fetching last state\nfor session {session_id}, creation_date_time {creation_date_time} from table {self.table_name}.")
-                    pass
-                else:
-                    return item
-            except:
-                logger.error("Exception when fetching last state")
-                return None
+        if session_id is None:
+            return None
+        try:
+            item = None
+            start_time = time.time()
+            timeout = 2 #second
+            # while (item is None and time.time() < start_time + timeout):
+            #     results = db['current_state'].find( { "_id": self.session_id} )
+            #     results = loads(dumps(results))
+            #     if len(results) > 0:
+            #         return results[0]['data']
+            #     else:
+            #         return None
+            # return item
+
+            while (item is None and time.time() < start_time + timeout):
+                a = list(state_store.keys())[0]
+                Q = '"'
+                return state_store[(Q + session_id + Q, creation_date_time)]
+            if item is None:
+                #logger.error(
+                #    f"Timed out when fetching last state\nfor session {session_id}, creation_date_time {creation_date_time} from table {self.table_name}.")
+                pass
+            else:
+                return item
+        except:
+            logger.error("Exception when fetching last state")
+            return None
 
     def persist(self, state: Dict):
         self.c_step += 1
@@ -222,39 +214,35 @@ class UserTable():
         if user_id is None:
             return None
         
-        if self.debug:
-            self.debug = False
-            item = json.load(open(f'/home/mo.169/tacobot_v2/state_data/last_con1_us_t_6_debug.json',))
-            return item
+
+        item = None
+        start_time = time.time()
+        timeout = 2  # second
+        # while (item is None and time.time() < start_time + timeout):
+        #     try:
+        #         results = db['user_attributes'].find( { "_id": self.user_id} )
+        #         results = loads(dumps(results))[0]
+        #         item =  results['data']
+        #     except:
+        #         pass
+
+        # if item is None:
+        #     logger.error(
+        #         f"Timed out when fetching user attributes\nfor user_id {user_id} from table {self.table_name}.")
+        # else:
+        #     return item
+
+        while (item is None and time.time() < start_time + timeout):
+            item = user_store[user_id]
+        if item is None:
+            logger.error(
+                f"Timed out when fetching user attributes\nfor user_id {user_id} from table {self.table_name}.")
         else:
-            item = None
-            start_time = time.time()
-            timeout = 2  # second
-            # while (item is None and time.time() < start_time + timeout):
-            #     try:
-            #         results = db['user_attributes'].find( { "_id": self.user_id} )
-            #         results = loads(dumps(results))[0]
-            #         item =  results['data']
-            #     except:
-            #         pass
+            return item
 
-            # if item is None:
-            #     logger.error(
-            #         f"Timed out when fetching user attributes\nfor user_id {user_id} from table {self.table_name}.")
-            # else:
-            #     return item
-
-            while (item is None and time.time() < start_time + timeout):
-                item = user_store[user_id]
-            if item is None:
-                logger.error(
-                    f"Timed out when fetching user attributes\nfor user_id {user_id} from table {self.table_name}.")
-            else:
-                return item
-
-            logger.error("Exception when fetching user attributes from table: " + self.table_name,
-                         exc_info=True)
-            return None
+        logger.error("Exception when fetching user attributes from table: " + self.table_name,
+                        exc_info=True)
+        return None
 
     def persist(self, user_attributes: Dict) -> None:
         """

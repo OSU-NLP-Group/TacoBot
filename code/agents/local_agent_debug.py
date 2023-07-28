@@ -116,7 +116,7 @@ apology_string = 'Sorry, I\'m having a really hard time right now. ' + \
 state_store = {}
 user_store = defaultdict(dict)
 
-client = pymongo.MongoClient("mongodb+srv://johnnyjana730:kl0EVCDvtajfCgWK@cluster0.cdqflg6.mongodb.net/?retryWrites=true&w=majority", connect=False, server_api=ServerApi('1'))
+client = pymongo.MongoClient("<placeholder>", connect=False, server_api=ServerApi('1'))
 db = client.testdb
 
 
@@ -128,7 +128,7 @@ class StateTable:
         self.c_step = 0
 
         if self.debug:
-            self.item = json.load(open(f'/home/tai.97/github/tacobot_v2/state_data/last_con1_cs_t_6_DEBUG.json',))
+            self.item = json.load(open(f'/state_data/last_con1_cs_t_6_DEBUG.json',))
             # print('self.item = ', self.item.keys())
             print('debug last response = ', self.item['response'])
 
@@ -136,7 +136,7 @@ class StateTable:
         #logger.warning(f"state_table fetching last state for session {session_id}, creation_date_time {creation_date_time} from table {self.table_name}")
         if self.debug:
             self.debug = False
-            item = json.load(open(f'/home/tai.97/github/tacobot_v2/state_data/last_con1_cs_t_6_DEBUG.json',))
+            item = json.load(open(f'/state_data/last_con1_cs_t_6_DEBUG.json',))
             return item
         else:
             if session_id is None:
@@ -165,7 +165,7 @@ class StateTable:
         logger.primary_info('session_id: {}'.format(state['session_id']))
         logger.primary_info('creation_date_time: {}'.format(state['creation_date_time']))
 
-        with open(f'/home/tai.97/github/tacobot_v2/state_data/last_con1_cs_t_{self.c_step}.json', 'w') as f:
+        with open(f'/state_data/last_con1_cs_t_{self.c_step}.json', 'w') as f:
             json.dump(state, f)
 
         n_state = {}
@@ -197,7 +197,7 @@ class UserTable():
         
         if self.debug:
             self.debug = False
-            item = json.load(open(f'/home/tai.97/github/tacobot_v2/state_data/last_con1_us_t_6_debug.json',))
+            item = json.load(open(f'/state_data/last_con1_us_t_6_debug.json',))
             return item
         else:
             item = None
@@ -233,7 +233,7 @@ class UserTable():
         db['user_attributes'].delete_one({"_id": self.user_id})
         db['user_attributes'].insert_one({"_id": self.user_id, "data": user_attributes})
 
-        with open(f'/home/tai.97/github/tacobot_v2/state_data/last_con1_us_t_{self.c_step}.json', 'w') as f:
+        with open(f'/state_data/last_con1_us_t_{self.c_step}.json', 'w') as f:
             json.dump(user_attributes, f)
         return True
 
