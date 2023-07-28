@@ -1,0 +1,14 @@
+version: 2.0
+
+annotators:
+  url: "http://192.168.0.2"
+  ports:
+    nounphrases: "2080"
+    questiontype: "2081"
+    recipesearch: "2082"
+    taskfilter: "2083"
+    taskname: "2084"
+    tasksearch: "2085"
+    tasktype: "2086"
+    template: "2087"
+    neuralintent: "2088"
