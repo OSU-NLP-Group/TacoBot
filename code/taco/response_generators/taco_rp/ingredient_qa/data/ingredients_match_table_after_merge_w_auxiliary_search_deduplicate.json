@@ -1,0 +1,1792 @@
+[
+  {
+    "ingredient": "allspice",
+    "ingredient_category": "allspice",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1/2 teaspoon cinnamon, 1/4 teaspoon ginger, and 1/4 teaspoon cloves"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "arrowroot starch",
+    "ingredient_category": "arrowroot starch",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1 tablespoon flour or 1 teaspoon cornstarch"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "baking mix",
+    "ingredient_category": "baking mix",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup pancake mix"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "baking powder",
+    "ingredient_category": "baking powder",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1/4 teaspoon baking soda plus 1/2 teaspoon cream of tartar or 1/4 teaspoon baking soda plus 1/2 cup buttermilk (decrease liquid in recipe by 1/2 cup)"
+    ],
+    "auxiliary_search": "powder"
+  },
+  {
+    "ingredient": "baking soda",
+    "ingredient_category": "baking soda",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "4 teaspoons baking powder or 1 teaspoon potassium bicarbonate and 1/3 teaspoon salt. note: if the recipe calls for an acidic liquid such as sour cream, yogurt, buttermilk, vinegar, molasses, or citrus juice, you should replace it with the same amount of whole milk"
+    ],
+    "auxiliary_search": "soda"
+  },
+  {
+    "ingredient": "beer",
+    "ingredient_category": "beer",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup nonalcoholic beer or 1 cup chicken broth"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "brandy",
+    "ingredient_category": "brandy",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1/4 cup",
+      "1 teaspoon imitation brandy extract plus enough water to make 1/4 cup"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "bread crumbs",
+    "ingredient_category": "bread crumbs",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup cracker crumbs or 1 cup matzo meal or 1 cup ground oats"
+    ],
+    "auxiliary_search": "crumbs"
+  },
+  {
+    "ingredient": "broth: beef or chicken",
+    "ingredient_category": "broth",
+    "ingredient_property": "beef or chicken",
+    "amount_substitution": [
+      "1 cup",
+      "1 bouillon cube plus 1 cup boiling water or 1 tablespoon soy sauce plus enough water to make 1 cup or 1 cup vegetable broth"
+    ],
+    "auxiliary_search": ["chicken broth", "beef broth"]
+  },
+  {
+    "ingredient": "brown sugar",
+    "ingredient_category": "brown sugar",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup, packed",
+      "1 cup white sugar plus 1/4 cup molasses and decrease the liquid in recipe by 1/4 cup or 1 cup white sugar or 1 1/4 cups confectioners' sugar"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "butter (salted)",
+    "ingredient_category": "butter",
+    "ingredient_property": "salted",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup margarine or 1 cup shortening plus 1/2 teaspoon salt or 7/8 cup vegetable oil plus 1/2 teaspoon salt or 7/8 cup lard plus 1/2 teaspoon salt"
+    ],
+    "auxiliary_search": "salted butter"
+  },
+  {
+    "ingredient": "butter (unsalted)",
+    "ingredient_category": "butter",
+    "ingredient_property": "unsalted",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup shortening or 7/8 cup vegetable oil or 7/8 cup lard"
+    ],
+    "auxiliary_search": "unsalted butter"
+  },
+  {
+    "ingredient": "buttermilk",
+    "ingredient_category": "buttermilk",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup yogurt or 1 tablespoon lemon juice or vinegar plus enough milk to make 1 cup"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "cheddar cheese",
+    "ingredient_category": "cheddar cheese",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup shredded",
+      "1 cup shredded colby cheddar or 1 cup shredded monterey jack cheese"
+    ],
+    "auxiliary_search": "cheese"
+  },
+  {
+    "ingredient": "chervil",
+    "ingredient_category": "chervil",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon chopped fresh",
+      "1 tablespoon chopped fresh parsley"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "chicken base",
+    "ingredient_category": "chicken base",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon",
+      "1 cup canned or homemade chicken broth or stock. reduce liquid in recipe by 1 cup"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "chocolate (semisweet)",
+    "ingredient_category": "chocolate",
+    "ingredient_property": "semisweet",
+    "amount_substitution": [
+      "1 ounce",
+      "1 (1-ounce) square of unsweetened chocolate plus 4 teaspoons sugar or 1 ounce semisweet chocolate chips plus 1 teaspoon shortening"
+    ],
+    "auxiliary_search": "semisweet chocolate"
+  },
+  {
+    "ingredient": "chocolate (unsweetened)",
+    "ingredient_category": "chocolate",
+    "ingredient_property": "unsweetened",
+    "amount_substitution": [
+      "1 ounce",
+      "3 tablespoons unsweetened cocoa plus 1 tablespoon shortening or vegetable oil"
+    ],
+    "auxiliary_search": "unsweetened chocolate"
+  },
+  {
+    "ingredient": "cocoa",
+    "ingredient_category": "cocoa",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1/4 cup",
+      "1 (1-ounce) square unsweetened chocolate"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "condensed cream of mushroom soup",
+    "ingredient_category": "condensed cream of mushroom soup",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 (10.75-ounce) can",
+      "1 (10.75-ounce) can condensed cream of celery, cream of chicken, or golden mushroom soup"
+    ],
+    "auxiliary_search": "mushroom soup"
+  },
+  {
+    "ingredient": "corn syrup",
+    "ingredient_category": "corn syrup",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 1/4 cup white sugar plus 1/3 cup water or 1 cup honey or 1 cup light treacle syrup"
+    ],
+    "auxiliary_search": "syrup"
+  },
+  {
+    "ingredient": "cottage cheese",
+    "ingredient_category": "cottage cheese",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup farmer's cheese or 1 cup ricotta cheese"
+    ],
+    "auxiliary_search": "cheese"
+  },
+  {
+    "ingredient": "cracker crumbs",
+    "ingredient_category": "cracker crumbs",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup bread crumbs or 1 cup matzo meal or 1 cup ground oats"
+    ],
+    "auxiliary_search": "crumbs"
+  },
+  {
+    "ingredient": "cream (half and half)",
+    "ingredient_category": "cream",
+    "ingredient_property": "half and half",
+    "amount_substitution": [
+      "1 cup",
+      "7/8 cup milk plus 1 tablespoon butter"
+    ],
+    "auxiliary_search": "half cream"
+  },
+  {
+    "ingredient": "cream (heavy)",
+    "ingredient_category": "cream",
+    "ingredient_property": "heavy",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup evaporated milk or 3/4 cup milk plus 1/3 cup butter"
+    ],
+    "auxiliary_search": "heavy cream"
+  },
+  {
+    "ingredient": "cream (light)",
+    "ingredient_category": "cream",
+    "ingredient_property": "light",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup evaporated milk or 3/4 cup milk plus 3 tablespoons butter"
+    ],
+    "auxiliary_search": "light cream"
+  },
+  {
+    "ingredient": "cream (whipped)",
+    "ingredient_category": "cream",
+    "ingredient_property": "whipped",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup frozen whipped topping, thawed"
+    ],
+    "auxiliary_search": "whipped cream"
+  },
+  {
+    "ingredient": "cream of tartar",
+    "ingredient_category": "cream of tartar",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "2 teaspoons lemon juice or vinegar"
+    ],
+    "auxiliary_search": "tartar cream"
+  },
+  {
+    "ingredient": "crème fraiche",
+    "ingredient_category": "crème fraiche",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "combine 1 cup of heavy cream and 1 tablespoon of plain yogurt. let stand for 6 hours at room temperature"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "egg",
+    "ingredient_category": "egg",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 whole (3 tablespoons or 1.7 oz)",
+      "2 1/2 tablespoons of powdered egg substitute plus 2 1/2 tablespoons water or 1/4 cup liquid egg substitute or 1/4 cup silken tofu pureed or 3 tablespoons mayonnaise or half a banana mashed with 1/2 teaspoon baking powder or 1 tablespoon powdered flax seed soaked in 3 tablespoons water"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "evaporated milk",
+    "ingredient_category": "evaporated milk",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup light cream"
+    ],
+    "auxiliary_search": "milk"
+  },
+  {
+    "ingredient": "farmer's cheese",
+    "ingredient_category": "farmer's cheese",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "8 ounces",
+      "8 ounces dry cottage cheese or 8 ounces creamed cottage cheese, drained"
+    ],
+    "auxiliary_search": "cheese"
+  },
+  {
+    "ingredient": "fats for baking",
+    "ingredient_category": "fats for baking",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup applesauce or 1 cup fruit puree"
+    ],
+    "auxiliary_search": "baking fats"
+  },
+  {
+    "ingredient": "flour: bread",
+    "ingredient_category": "flour",
+    "ingredient_property": "bread",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup all-purpose flour plus 1 teaspoon wheat gluten"
+    ],
+    "auxiliary_search": "bread flour"
+  },
+  {
+    "ingredient": "flour: cake",
+    "ingredient_category": "flour",
+    "ingredient_property": "cake",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup all-purpose flour minus 2 tablespoons"
+    ],
+    "auxiliary_search": "cake flour"
+  },
+  {
+    "ingredient": "flour: self-rising",
+    "ingredient_category": "flour",
+    "ingredient_property": "self-rising",
+    "amount_substitution": [
+      "1 cup",
+      "7/8 cup all-purpose flour plus 1 1/2 teaspoons baking powder and 1/2 teaspoon of salt"
+    ],
+    "auxiliary_search": "self rising flour"
+  },
+  {
+    "ingredient": "garlic",
+    "ingredient_category": "garlic",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 clove",
+      "1/8 teaspoon garlic powder or 1/2 teaspoon granulated garlic or 1/2 teaspoon garlic salt, reduce salt in recipe"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "gelatin",
+    "ingredient_category": "gelatin",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon, granulated",
+      "2 teaspoons agar agar"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "ginger (dry)",
+    "ingredient_category": "ginger",
+    "ingredient_property": "dry",
+    "amount_substitution": [
+      "1 teaspoon",
+      "2 teaspoons chopped fresh ginger"
+    ],
+    "auxiliary_search": "dry ginger"
+  },
+  {
+    "ingredient": "ginger (fresh)",
+    "ingredient_category": "ginger",
+    "ingredient_property": "fresh",
+    "amount_substitution": [
+      "1 teaspoon, minced",
+      "1/2 teaspoon ground dried ginger"
+    ],
+    "auxiliary_search": "fresh ginger"
+  },
+  {
+    "ingredient": "green onion",
+    "ingredient_category": "green onion",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1/2 cup , chopped",
+      "1/2 cup chopped onion or 1/2 cup chopped leek or 1/2 cup chopped shallots"
+    ],
+    "auxiliary_search": "onion"
+  },
+  {
+    "ingredient": "hazelnuts",
+    "ingredient_category": "hazelnuts",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup whole",
+      "1 cup macadamia nuts or 1 cup almonds"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "herbs (fresh)",
+    "ingredient_category": "herbs",
+    "ingredient_property": "fresh",
+    "amount_substitution": [
+      "1 tablespoon chopped fresh",
+      "1 teaspoon (chopped or whole leaf) dried herbs"
+    ],
+    "auxiliary_search": "fresh herbs"
+  },
+  {
+    "ingredient": "herring",
+    "ingredient_category": "herring",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "8 ounces",
+      "8 ounces of sardines"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "honey",
+    "ingredient_category": "honey",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 1/4 cup white sugar plus 1/3 cup water or 1 cup corn syrup or 1 cup light treacle syrup"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "hot pepper sauce",
+    "ingredient_category": "hot pepper sauce",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "3/4 teaspoon cayenne pepper plus 1 teaspoon vinegar"
+    ],
+    "auxiliary_search": ["hot sauce", "pepper sauce", "sauce"]
+  },
+  {
+    "ingredient": "lard",
+    "ingredient_category": "lard",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup shortening or 7/8 cup vegetable oil or 1 cup butter"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "lemon grass",
+    "ingredient_category": "lemon grass",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "2 fresh stalks",
+      "1 tablespoon lemon zest"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "lemon juice",
+    "ingredient_category": "lemon juice",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1/2 teaspoon vinegar or 1 teaspoon white wine or 1 teaspoon lime juice"
+    ],
+    "auxiliary_search": "juice"
+  },
+  {
+    "ingredient": "lemon zest",
+    "ingredient_category": "lemon zest",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1/2 teaspoon lemon extract or 2 tablespoons lemon juice"
+    ],
+    "auxiliary_search": "zest"
+  },
+  {
+    "ingredient": "lime juice",
+    "ingredient_category": "lime juice",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1 teaspoon vinegar or 1 teaspoon white wine or 1 teaspoon lemon juice"
+    ],
+    "auxiliary_search": "juice"
+  },
+  {
+    "ingredient": "lime zest",
+    "ingredient_category": "lime zest",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1 teaspoon lemon zest"
+    ],
+    "auxiliary_search": "zest"
+  },
+  {
+    "ingredient": "macadamia nuts",
+    "ingredient_category": "macadamia nuts",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup almonds or 1 cup hazelnuts"
+    ],
+    "auxiliary_search": "nuts"
+  },
+  {
+    "ingredient": "mace",
+    "ingredient_category": "mace",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1 teaspoon nutmeg"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "margarine",
+    "ingredient_category": "margarine",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup shortening plus 1/2 teaspoon salt or 1 cup butter or 7/8 cup vegetable oil plus 1/2 teaspoon salt or 7/8 cup lard plus 1/2 teaspoon salt"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "mayonnaise",
+    "ingredient_category": "mayonnaise",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup sour cream or 1 cup plain yogurt"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "milk (whole)",
+    "ingredient_category": "milk",
+    "ingredient_property": "whole",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup soy milk or 1 cup rice milk or 1 cup water or juice or 1/4 cup dry milk powder plus 1 cup water or 2/3 cup evaporated milk plus 1/3 cup water"
+    ],
+    "auxiliary_search": "whole milk"
+  },
+  {
+    "ingredient": "mint (fresh)",
+    "ingredient_category": "mint",
+    "ingredient_property": "fresh",
+    "amount_substitution": [
+      "1/4 cup chopped",
+      "1 tablespoon dried mint leaves"
+    ],
+    "auxiliary_search": "fresh mint"
+  },
+  {
+    "ingredient": "molasses",
+    "ingredient_category": "molasses",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "mix 3/4 cup brown sugar and 1 teaspoon cream of tartar"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "mustard: prepared",
+    "ingredient_category": "mustard",
+    "ingredient_property": "prepared",
+    "amount_substitution": [
+      "1 tablespoon",
+      "mix together 1 tablespoon dried mustard, 1 teaspoon water, 1 teaspoon vinegar and 1 teaspoon sugar"
+    ],
+    "auxiliary_search": "prepared mustard"
+  },
+  {
+    "ingredient": "onion",
+    "ingredient_category": "onion",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup, chopped",
+      "1 cup chopped green onions or 1 cup chopped shallots or 1 cup chopped leeks or 1/4 cup dried minced onion or 1/4 cup onion powder"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "orange juice",
+    "ingredient_category": "orange juice",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon",
+      "1 tablespoon other citrus juice"
+    ],
+    "auxiliary_search": "juice"
+  },
+  {
+    "ingredient": "orange zest",
+    "ingredient_category": "orange zest",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon",
+      "1/2 teaspoon orange extract or 1 teaspoon lemon juice"
+    ],
+    "auxiliary_search": "zest"
+  },
+  {
+    "ingredient": "parmesan cheese",
+    "ingredient_category": "parmesan cheese",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1/2 cup, grated",
+      "1/2 cup grated asiago cheese or 1/2 cup grated romano cheese"
+    ],
+    "auxiliary_search": "cheese"
+  },
+  {
+    "ingredient": "parsley",
+    "ingredient_category": "parsley",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon chopped fresh",
+      "1 tablespoon chopped fresh chervil or 1 teaspoon dried parsley"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "pepperoni",
+    "ingredient_category": "pepperoni",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 ounce",
+      "1 ounce salami"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "raisin",
+    "ingredient_category": "raisin",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup dried currants or 1 cup dried cranberries or 1 cup chopped pitted prunes"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "rice: white",
+    "ingredient_category": "rice",
+    "ingredient_property": "white",
+    "amount_substitution": [
+      "1 cup, cooked",
+      "1 cup cooked barley or 1 cup cooked bulgur or 1 cup cooked brown or wild rice"
+    ],
+    "auxiliary_search": "white rice"
+  },
+  {
+    "ingredient": "ricotta",
+    "ingredient_category": "ricotta",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup dry cottage cheese or 1 cup silken tofu"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "rum",
+    "ingredient_category": "rum",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 tablespoon",
+      "1/2 teaspoon rum extract, plus enough water to make 1 tablespoon"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "saffron",
+    "ingredient_category": "saffron",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1/4 teaspoon",
+      "1/4 teaspoon turmeric"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "salami",
+    "ingredient_category": "salami",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 ounce",
+      "1 ounce pepperoni"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "semisweet chocolate chips",
+    "ingredient_category": "semisweet chocolate chips",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup chocolate candies or 1 cup peanut butter or other flavored chips or 1 cup chopped nuts or 1 cup chopped dried fruit"
+    ],
+    "auxiliary_search": "chips"
+  },
+  {
+    "ingredient": "shallots, chopped",
+    "ingredient_category": "shallots",
+    "ingredient_property": "chopped",
+    "amount_substitution": [
+      "1/2 cup",
+      "1/2 cup chopped onion or 1/2 cup chopped leek or 1/2 cup chopped green onion"
+    ],
+    "auxiliary_search": "chopped shallots"
+  },
+  {
+    "ingredient": "shortening",
+    "ingredient_category": "shortening",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup butter or 1 cup margarine minus 1/2 teaspoon salt from recipe"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "sour cream",
+    "ingredient_category": "sour cream",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup plain yogurt or 1 tablespoon lemon juice or vinegar plus enough cream to make 1 cup or 3/4 cup buttermilk mixed with 1/3 cup butter"
+    ],
+    "auxiliary_search": "cream"
+  },
+  {
+    "ingredient": "sour milk",
+    "ingredient_category": "sour milk",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 tablespoon vinegar or lemon juice mixed with enough milk to make 1 cup: let stand 5 minutes to thicken"
+    ],
+    "auxiliary_search": "milk"
+  },
+  {
+    "ingredient": "soy sauce",
+    "ingredient_category": "soy sauce",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1/2 cup",
+      "1/4 cup worcestershire sauce mixed with 1 tablespoon water"
+    ],
+    "auxiliary_search": "sauce"
+  },
+  {
+    "ingredient": "stock: beef or chicken",
+    "ingredient_category": "stock",
+    "ingredient_property": "beef or chicken",
+    "amount_substitution": [
+      "1 cup",
+      "1 cube beef or chicken bouillon dissolved in 1 cup water"
+    ],
+    "auxiliary_search": ["beef stock", "chicken stock"]
+  },
+  {
+    "ingredient": "sweetened condensed milk",
+    "ingredient_category": "sweetened condensed milk",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 (14-ounce) can",
+      "3/4 cup white sugar mixed with 1/2 cup water and 1 1/8 cups dry powdered milk: bring to a boil and cook, stirring frequently, until thickened, about 20 minutes"
+    ],
+    "auxiliary_search": "milk"
+  },
+  {
+    "ingredient": "vegetable oil (for baking)",
+    "ingredient_category": "vegetable oil",
+    "ingredient_property": "for baking",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup applesauce or 1 cup fruit puree"
+    ],
+    "auxiliary_search": "oil"
+  },
+  {
+    "ingredient": "vegetable oil (for frying)",
+    "ingredient_category": "vegetable oil",
+    "ingredient_property": "for frying",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup lard or 1 cup vegetable shortening"
+    ],
+    "auxiliary_search": "oil"
+  },
+  {
+    "ingredient": "vinegar",
+    "ingredient_category": "vinegar",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 teaspoon",
+      "1 teaspoon lemon or lime juice or 2 teaspoons white wine"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "white sugar",
+    "ingredient_category": "white sugar",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup brown sugar or 1 1/4 cups confectioners' sugar or 3/4 cup honey or 3/4 cup corn syrup"
+    ],
+    "auxiliary_search": "sugar"
+  },
+  {
+    "ingredient": "wine",
+    "ingredient_category": "wine",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup chicken or beef broth or 1 cup fruit juice mixed with 2 teaspoons vinegar or 1 cup water"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "yeast: active dry",
+    "ingredient_category": "yeast",
+    "ingredient_property": "active dry",
+    "amount_substitution": [
+      "1 (.25-ounce) package",
+      "1 cake compressed yeast or 2 1/2 teaspoons active dry yeast or 2 1/2 teaspoons rapid rise yeast"
+    ],
+    "auxiliary_search": "active dry yeast"
+  },
+  {
+    "ingredient": "yogurt",
+    "ingredient_category": "yogurt",
+    "ingredient_property": null,
+    "amount_substitution": [
+      "1 cup",
+      "1 cup sour cream or 1 cup buttermilk or 1 cup sour milk"
+    ],
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "apple pie spice",
+    "amount_substitution": [
+      "1 teaspoon",
+      "½ teaspoon cinnamon plus ¼ teaspoon nutmeg plus 1/8 teaspoon cardamom"
+    ],
+    "ingredient_category": "apple pie spice",
+    "ingredient_property": null,
+    "auxiliary_search": "spice"
+  },
+  {
+    "ingredient": "baking powder, double-acting",
+    "amount_substitution": [
+      "1 teaspoon",
+      "¼ teaspoon baking soda plus 5/8 teaspoon cream of tartar"
+    ],
+    "ingredient_category": "baking powder",
+    "ingredient_property": "double-acting",
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "barbeque sauce",
+    "amount_substitution": [
+      "1 cup",
+      "¾ cup ketchup, 2 tablespoons mustard and 2 tablespoons brown sugar"
+    ],
+    "ingredient_category": "barbeque sauce",
+    "ingredient_property": null,
+    "auxiliary_search": "sauce"
+  },
+  {
+    "ingredient": "butter",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup margarine (regular), 1 cup vegetable shortening (for baking), an equal amount of oil can be substituted for a similar portion of melted butter if the recipe specifies using melted butter."
+    ],
+    "ingredient_category": "butter",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "chili sauce",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup tomato sauce, ¼ cup brown sugar, 2 tablespoons vinegar, ¼ teaspoon cinnamon, dash of ground cloves and dash of allspice"
+    ],
+    "ingredient_category": "chili sauce",
+    "ingredient_property": null,
+    "auxiliary_search": "sauce"
+  },
+  {
+    "ingredient": "cream, whipping",
+    "amount_substitution": [
+      "1 cup unwhipped",
+      "2 cups whipped cream"
+    ],
+    "ingredient_category": "cream",
+    "ingredient_property": "whipping",
+    "auxiliary_search": "whipping cream"
+  },
+  {
+    "ingredient": "flour, all-purpose white flour",
+    "amount_substitution": [
+      "1 cup",
+      "½ cup whole wheat flour plus ½ cup all-purpose flour"
+    ],
+    "ingredient_category": "flour",
+    "ingredient_property": "all-purpose white flour",
+    "auxiliary_search": "all purpose white flour"
+  },
+  {
+    "ingredient": "marshmallows, miniature",
+    "amount_substitution": [
+      "1 cup",
+      "10 large marshmallows"
+    ],
+    "ingredient_category": "marshmallows",
+    "ingredient_property": "miniature",
+    "auxiliary_search": "miniature marshmallows"
+  },
+  {
+    "ingredient": "pumpkin pie spice",
+    "amount_substitution": [
+      "1 teaspoon",
+      "½ teaspoon cinnamon plus ¼ ground teaspoon ginger plus 1/8 teaspoon ground allspice plus 1/8 teaspoon ground nutmeg"
+    ],
+    "ingredient_category": "pumpkin pie spice",
+    "ingredient_property": null,
+    "auxiliary_search": "spice"
+  },
+  {
+    "ingredient": "rice",
+    "amount_substitution": [
+      "any amount",
+      "most rice products will substitute for each other on a fairly equal basis in recipes, but the cooking time and amount of liquid will vary. learn more about cooking rice."
+    ],
+    "ingredient_category": "rice",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "sugar, confectioners' or powdered",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup granulated sugar plus 1 tablespoon cornstarch; process in a food processor using the metal blade attachment until it's well blended and powdery."
+    ],
+    "ingredient_category": "sugar",
+    "ingredient_property": "confectioners' or powdered",
+    "auxiliary_search": ["confectioners sugar", "powdered sugar"]
+  },
+  {
+    "ingredient": "tomato juice",
+    "amount_substitution": [
+      "1 cup",
+      "1 ½ cup tomato sauce plus ½ cup water"
+    ],
+    "ingredient_category": "tomato juice",
+    "ingredient_property": null,
+    "auxiliary_search": "juice"
+  },
+  {
+    "ingredient": "tomato soup",
+    "amount_substitution": [
+      "10 ¾ ounce can",
+      "1 cup tomato sauce plus ¼ cup water"
+    ],
+    "ingredient_category": "tomato soup",
+    "ingredient_property": null,
+    "auxiliary_search": "soup"
+  },
+  {
+    "ingredient": "wine, red",
+    "amount_substitution": [
+      "any amount",
+      "the same amount of grape juice or cranberry juice"
+    ],
+    "ingredient_category": "wine",
+    "ingredient_property": "red",
+    "auxiliary_search": "red wine"
+  },
+  {
+    "ingredient": "wine, white",
+    "amount_substitution": [
+      "any amount",
+      "the same amount of apple juice or white grape juice"
+    ],
+    "ingredient_category": "wine",
+    "ingredient_property": "white",
+    "auxiliary_search": "white wine"
+  },
+  {
+    "ingredient": "yeast, compressed",
+    "amount_substitution": [
+      "2/3 oz",
+      "1 package (¼ ounce) active dry yeast, 2 ¼ teaspoons active dry yeast"
+    ],
+    "ingredient_category": "yeast",
+    "ingredient_property": "compressed",
+    "auxiliary_search": "compressed yeast"
+  },
+  {
+    "ingredient": "arrowroot",
+    "amount_substitution": [
+      "1 1/2 tsp.",
+      "1 tbsp. flour"
+    ],
+    "ingredient_category": "arrowroot",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "bay leaf",
+    "amount_substitution": [
+      "1 whole",
+      "1/4 tsp. crushed"
+    ],
+    "ingredient_category": "bay leaf",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "beau monde",
+    "amount_substitution": [
+      "1 tsp.",
+      "1 tsp seasoning or seasoned salt"
+    ],
+    "ingredient_category": "beau monde",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "bread",
+    "amount_substitution": [
+      "1 slice dry",
+      "1/3 cup dry breadcrumbs"
+    ],
+    "ingredient_category": "bread",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "chives, finely chopped",
+    "amount_substitution": [
+      "2 tsp.",
+      "2 tsp. green onion tops, finely chopped"
+    ],
+    "ingredient_category": "chives",
+    "ingredient_property": "finely chopped",
+    "auxiliary_search": "finely chopped chives"
+  },
+  {
+    "ingredient": "chocolate, chips semisweet",
+    "amount_substitution": [
+      "1 oz.",
+      "1 oz. sweet cooking chocolate"
+    ],
+    "ingredient_category": "chocolate",
+    "ingredient_property": "chips semisweet",
+    "auxiliary_search": "chips semisweet chocolate"
+  },
+  {
+    "ingredient": "coconut cream",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup whipping cream"
+    ],
+    "ingredient_category": "coconut cream",
+    "ingredient_property": null,
+    "auxiliary_search": "cream"
+  },
+  {
+    "ingredient": "coconut milk",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup whole or 2% milk"
+    ],
+    "ingredient_category": "coconut milk",
+    "ingredient_property": null,
+    "auxiliary_search": "milk"
+  },
+  {
+    "ingredient": "corn",
+    "amount_substitution": [
+      "1 dozen ears",
+      "2 1/2 cups cooked"
+    ],
+    "ingredient_category": "corn",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "cornmeal, self-rising",
+    "amount_substitution": [
+      "1 cup",
+      "7/8 cup plain, 1 1/2 tbsp. baking powder, and 1/2 tsp. salt"
+    ],
+    "ingredient_category": "cornmeal",
+    "ingredient_property": "self-rising",
+    "auxiliary_search": "self rising cornmeal"
+  },
+  {
+    "ingredient": "corn syrup, dark",
+    "amount_substitution": [
+      "1 cup",
+      "3/4 cup light corn syrup and 1/4 cup light molasses"
+    ],
+    "ingredient_category": "corn syrup",
+    "ingredient_property": "dark",
+    "auxiliary_search": ["syrup", "dark corn syrup"]
+  },
+  {
+    "ingredient": "dates",
+    "amount_substitution": [
+      "1 lb.",
+      "2 1/2 cup pitted"
+    ],
+    "ingredient_category": "dates",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "dill plant, fresh or dried",
+    "amount_substitution": [
+      "3 heads",
+      "1 tbsp. dill seed"
+    ],
+    "ingredient_category": "dill plant",
+    "ingredient_property": "fresh or dried",
+    "auxiliary_search": ["fresh dill plant", "dried dill plant"]
+  },
+  {
+    "ingredient": "egg, whole, uncooked",
+    "amount_substitution": [
+      "1 large(3 tbsp.)",
+      "3 tbsp. and 1 tsp. thawed frozen egg"
+    ],
+    "ingredient_category": "egg",
+    "ingredient_property": "whole",
+    "auxiliary_search": ["whole egg", "uncooked egg", "whole uncooked egg"]
+  },
+  {
+    "ingredient": "eggs, uncooked",
+    "amount_substitution": [
+      "1 cup",
+      "5 large eggs"
+    ],
+    "ingredient_category": "eggs",
+    "ingredient_property": "uncooked",
+    "auxiliary_search": "uncooked egg"
+  },
+  {
+    "ingredient": "egg white",
+    "amount_substitution": [
+      "1 large(2 tbsp.)",
+      "2 tsp. thawed frozen egg white"
+    ],
+    "ingredient_category": "egg white",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "egg yolk",
+    "amount_substitution": [
+      "1 yolk(1 1/2 tbsp.)",
+      "3 1/2 tbsp. thawed frozen egg yolk"
+    ],
+    "ingredient_category": "egg yolk",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "fines herbes",
+    "amount_substitution": [
+      "1/3 cup",
+      "3 tbsp. parsley flakes + 2 tsp. dried chervil + 2 tsp. dried chives + 1 tsp. dried tarragon"
+    ],
+    "ingredient_category": "fines herbes",
+    "ingredient_property": null,
+    "auxiliary_search": "herbes"
+  },
+  {
+    "ingredient": "flour, all-purpose",
+    "amount_substitution": [
+      "1 cup sifted",
+      "1 cup and 2 tbsp.cake flour"
+    ],
+    "ingredient_category": "flour",
+    "ingredient_property": "all-purpose",
+    "auxiliary_search": "all purpose flour"
+  },
+  {
+    "ingredient": "fruit, fresh, cut up",
+    "amount_substitution": [
+      "1 1/2 cups",
+      "16 oz. can, drained"
+    ],
+    "ingredient_category": "fruit",
+    "ingredient_property": "fresh",
+    "auxiliary_search": ["fresh fruit", "cut up fruit", "fresh cut up fruit"]
+  },
+  {
+    "ingredient": "garlic salt",
+    "amount_substitution": [
+      "1 tsp.",
+      "1/8 tsp. garlic powder plus 7/8 tsp. salt"
+    ],
+    "ingredient_category": "garlic salt",
+    "ingredient_property": null,
+    "auxiliary_search": "salt"
+  },
+  {
+    "ingredient": "gelatin, flavored",
+    "amount_substitution": [
+      "3 oz.",
+      "1 tbsp. plain gelatin and 2 cups fruit juice"
+    ],
+    "ingredient_category": "gelatin",
+    "ingredient_property": "flavored",
+    "auxiliary_search": "flavored gelatin"
+  },
+  {
+    "ingredient": "ginger",
+    "amount_substitution": [
+      "1/8 tsp.",
+      "1 tsp. candied ginger rinsed in water to remove sugar, then finely cut"
+    ],
+    "ingredient_category": "ginger",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "horseradish",
+    "amount_substitution": [
+      "1 tbsp.",
+      "2 tbsp. bottled fresh"
+    ],
+    "ingredient_category": "horseradish",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "ketchup",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup tomato sauce, 1/4 cup brown sugar, and 2 tbsp. vinegar (for use in cooking)"
+    ],
+    "ingredient_category": "ketchup",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "lemon peel, dried",
+    "amount_substitution": [
+      "1 tsp.",
+      "1 to 2 tsp. grated fresh lemon peel"
+    ],
+    "ingredient_category": "lemon peel",
+    "ingredient_property": "dried",
+    "auxiliary_search": ["peel", "dried lemon peel"]
+  },
+  {
+    "ingredient": "lime",
+    "amount_substitution": [
+      "1 medium",
+      "1 1/2 to 2 tbsp. juice"
+    ],
+    "ingredient_category": "lime",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "mei yen seasoning",
+    "amount_substitution": [
+      "1 tsp.",
+      "1 tsp. beau monde seasoning"
+    ],
+    "ingredient_category": "mei yen seasoning",
+    "ingredient_property": null,
+    "auxiliary_search": "seasoning"
+  },
+  {
+    "ingredient": "milk, skim",
+    "amount_substitution": [
+      "1 cup",
+      "4 to 5 tbsp. non-fat dry milk powder and enough water to make 1 cup or follow manufacturer's directions"
+    ],
+    "ingredient_category": "milk",
+    "ingredient_property": "skim",
+    "auxiliary_search": "skim milk"
+  },
+  {
+    "ingredient": "milk, sweetened condensed",
+    "amount_substitution": [
+      "1 can (about 1 1/3 cup)",
+      "heat the following ingredients until sugar and butter are dissolved: 1/3 cup plus 2 tbsp. evaporated milk, 1 cup sugar, and 3 tbsp. butter or margarine."
+    ],
+    "ingredient_category": "milk",
+    "ingredient_property": "sweetened condensed",
+    "auxiliary_search": "sweetened condensed milk"
+  },
+  {
+    "ingredient": "mushrooms, fresh",
+    "amount_substitution": [
+      "1 lb.",
+      "2 to 3 cup whole"
+    ],
+    "ingredient_category": "mushrooms",
+    "ingredient_property": "fresh",
+    "auxiliary_search": ["fresh mushroom", "fresh mushrooms"]
+  },
+  {
+    "ingredient": "mushrooms, canned",
+    "amount_substitution": [
+      "4 oz.",
+      "2 cups sliced fresh"
+    ],
+    "ingredient_category": "mushrooms",
+    "ingredient_property": "canned",
+    "auxiliary_search": ["canned mushrooms", "canned mushroom"]
+  },
+  {
+    "ingredient": "mustard, dry",
+    "amount_substitution": [
+      "1 tsp.",
+      "1 tbsp. prepared mustard"
+    ],
+    "ingredient_category": "mustard",
+    "ingredient_property": "dry",
+    "auxiliary_search": "dry mustard"
+  },
+  {
+    "ingredient": "onion, fresh",
+    "amount_substitution": [
+      "1 small",
+      "rehydrate 1 tbsp. instant minced onion"
+    ],
+    "ingredient_category": "onion",
+    "ingredient_property": "fresh",
+    "auxiliary_search": "fresh onion"
+  },
+  {
+    "ingredient": "onion powder",
+    "amount_substitution": [
+      "1 tbsp.",
+      "1 medium onion, chopped"
+    ],
+    "ingredient_category": "onion powder",
+    "ingredient_property": null,
+    "auxiliary_search": "powder"
+  },
+  {
+    "ingredient": "onions",
+    "amount_substitution": [
+      "1 lb.",
+      "3 large onions"
+    ],
+    "ingredient_category": "onions",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "orange peel, dried",
+    "amount_substitution": [
+      "1 tbsp.",
+      "2 to 3 tbsp. grated orange peel"
+    ],
+    "ingredient_category": "orange peel",
+    "ingredient_property": "dried",
+    "auxiliary_search": ["peel", "dried peel", "dried orange peel"]
+  },
+  {
+    "ingredient": "parsley, dried",
+    "amount_substitution": [
+      "1 tsp.",
+      "3 tsp. fresh parsley, chopped"
+    ],
+    "ingredient_category": "parsley",
+    "ingredient_property": "dried",
+    "auxiliary_search": "dried parsley"
+  },
+  {
+    "ingredient": "peppers, green bell",
+    "amount_substitution": [
+      "1 tbsp. dried",
+      "3 tbsp .fresh green pepper, chopped"
+    ],
+    "ingredient_category": "peppers",
+    "ingredient_property": "green bell",
+    "auxiliary_search": ["pepper", "green bell peppers", "green bell pepper"]
+  },
+  {
+    "ingredient": "peppers, red bell",
+    "amount_substitution": [
+      "1 tbsp. dried",
+      "3 tbsp fresh red pepper, chopped"
+    ],
+    "ingredient_category": "peppers",
+    "ingredient_property": "red bell",
+    "auxiliary_search": ["pepper", "red bell peppers", "red bell pepper"]
+  },
+  {
+    "ingredient": "peppermint, dried",
+    "amount_substitution": [
+      "1 tbsp.",
+      "1/4 cup chopped fresh mint"
+    ],
+    "ingredient_category": "peppermint",
+    "ingredient_property": "dried",
+    "auxiliary_search": "dried peppermint"
+  },
+  {
+    "ingredient": "pimiento",
+    "amount_substitution": [
+      "2 tbsp.",
+      "1 tbsp. dried red bell peppers, rehydrated"
+    ],
+    "ingredient_category": "pimiento",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "rennet",
+    "amount_substitution": [
+      "1 tablet",
+      "1 tbsp. liquid rennet"
+    ],
+    "ingredient_category": "rennet",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "shortening, melted",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup cooking oil (substitute only if a recipe calls for melted shortening.)"
+    ],
+    "ingredient_category": "shortening",
+    "ingredient_property": "melted",
+    "auxiliary_search": "melted shortening"
+  },
+  {
+    "ingredient": "sour cream, cultured",
+    "amount_substitution": [
+      "1 cup",
+      "3/4 cup sour milk or buttermilk and 1/3 cup butter or margarine"
+    ],
+    "ingredient_category": "sour cream",
+    "ingredient_property": "cultured",
+    "auxiliary_search": ["cream", "cultured sour cream"]
+  },
+  {
+    "ingredient": "spearmint, dried",
+    "amount_substitution": [
+      "1 tbsp.",
+      "1/4 cup chopped fresh mint"
+    ],
+    "ingredient_category": "spearmint",
+    "ingredient_property": "dried",
+    "auxiliary_search": "dried spearmint"
+  },
+  {
+    "ingredient": "sugar, brown",
+    "amount_substitution": [
+      "1 cup firmly packed",
+      "1 cup granulated sugar"
+    ],
+    "ingredient_category": "sugar",
+    "ingredient_property": "brown",
+    "auxiliary_search": "brown sugar"
+  },
+  {
+    "ingredient": "sugar, granulated",
+    "amount_substitution": [
+      "1 lb.",
+      "2 1/4 cups"
+    ],
+    "ingredient_category": "sugar",
+    "ingredient_property": "granulated",
+    "auxiliary_search": "granulated sugar"
+  },
+  {
+    "ingredient": "sugar, powdered",
+    "amount_substitution": [
+      "1 lb.",
+      "2 3/4 cups"
+    ],
+    "ingredient_category": "sugar",
+    "ingredient_property": "powdered",
+    "auxiliary_search": "powdered sugar"
+  },
+  {
+    "ingredient": "tapioca, granular",
+    "amount_substitution": [
+      "1 tbsp.",
+      "2 tbsp. pearl tapioca"
+    ],
+    "ingredient_category": "tapioca",
+    "ingredient_property": "granular",
+    "auxiliary_search": "granular tapioca"
+  },
+  {
+    "ingredient": "worcestershire sauce",
+    "amount_substitution": [
+      "1 tsp.",
+      "1 tsp. bottled steak sauce"
+    ],
+    "ingredient_category": "worcestershire sauce",
+    "ingredient_property": null,
+    "auxiliary_search": "sauce"
+  },
+  {
+    "ingredient": "yogurt, plain",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup buttermilk"
+    ],
+    "ingredient_category": "yogurt",
+    "ingredient_property": "plain",
+    "auxiliary_search": "plain yogurt"
+  },
+  {
+    "ingredient": "arrowroot, as thickener",
+    "amount_substitution": [
+      "1 teaspoon",
+      "1 tablespoon flour; or 1 teaspoon cornstarch"
+    ],
+    "ingredient_category": "arrowroot",
+    "ingredient_property": "as thickener",
+    "auxiliary_search": "thick arrowroot"
+  },
+  {
+    "ingredient": "cream, sour",
+    "amount_substitution": [
+      "1 cup",
+      "7/8 cup buttermilk or plain yogurt plus 3 tablespoons melted, unsalted butter"
+    ],
+    "ingredient_category": "cream",
+    "ingredient_property": "sour",
+    "auxiliary_search": "sour cream"
+  },
+  {
+    "ingredient": "egg ",
+    "amount_substitution": [
+      "1 whole (3 tablespoons)",
+      "2 yolks plus 1 tablespoon cold water; or 3 tablespoons vegetable oil plus 1 tablespoon water (for baking); or 3 tablespoons mayonainaise (for cakes); or  2 1/2 tablespoons of powdered egg substitute plus 2 1/2 tablespoons water, or 1/4 cup liquid egg substitute; or half a banana mashed with 1/2 teaspoon baking powder"
+    ],
+    "ingredient_category": "egg ",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "herbs, dried",
+    "amount_substitution": [
+      "1/2 to 1 teaspoon",
+      "1 tablespoon fresh herbs, minced and packed"
+    ],
+    "ingredient_category": "herbs",
+    "ingredient_property": "dried",
+    "auxiliary_search": "dried herbs"
+  },
+  {
+    "ingredient": "lemon, juice and rind",
+    "amount_substitution": [
+      "1 lemon",
+      "3 tablespoons bottled lemon juice and 1 teaspoon dried grated rind"
+    ],
+    "ingredient_category": "lemon",
+    "ingredient_property": "juice and rind",
+    "auxiliary_search": ["lemon juice", "lemon rind"]
+  },
+  {
+    "ingredient": "lemon rind, grated",
+    "amount_substitution": [
+      "1 teaspoon",
+      "1/2 teaspoon lemon extract"
+    ],
+    "ingredient_category": "lemon rind",
+    "ingredient_property": "grated",
+    "auxiliary_search": "grated lemon rind"
+  },
+  {
+    "ingredient": "milk, to sour",
+    "amount_substitution": [
+      "1 cup",
+      "1 tablespoon vinegar or lemon juice plus milk to equal 1 cup. stir and let stand 5 minutes."
+    ],
+    "ingredient_category": "milk",
+    "ingredient_property": "to sour",
+    "auxiliary_search": "sour milk"
+  },
+  {
+    "ingredient": "oat bran",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup wheat bran or rice bran or wheat germ"
+    ],
+    "ingredient_category": "oat bran",
+    "ingredient_property": null,
+    "auxiliary_search": "oat"
+  },
+  {
+    "ingredient": "oats, old-fashioned",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup steel-cut irish or scotch oats"
+    ],
+    "ingredient_category": "oats",
+    "ingredient_property": "old-fashioned",
+    "auxiliary_search": "old fashioned oats"
+  },
+  {
+    "ingredient": "oil, for baking",
+    "amount_substitution": [
+      "1/2 cup",
+      "½ cup of applesauce (keeps baked goods moist, but with less fat)"
+    ],
+    "ingredient_category": "oil",
+    "ingredient_property": "for baking",
+    "auxiliary_search": "baking oil"
+  },
+  {
+    "ingredient": "onion, chopped",
+    "amount_substitution": [
+      "1 small",
+      "1 tablespoon instant minced onion; or 1 teaspoon onion powder; or 1/4 cup frozen chopped onion"
+    ],
+    "ingredient_category": "onion",
+    "ingredient_property": "chopped",
+    "auxiliary_search": "chopped onion"
+  },
+  {
+    "ingredient": "quinoa",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup millet or couscous (whole wheat cooks faster) or bulgur"
+    ],
+    "ingredient_category": "quinoa",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  },
+  {
+    "ingredient": "sugar, dark brown",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup light-brown sugar, packed; or 1 cup granulated sugar plus 2 to 3 tablespoons molasses"
+    ],
+    "ingredient_category": "sugar",
+    "ingredient_property": "dark brown",
+    "auxiliary_search": "dark brown sugar"
+  },
+  {
+    "ingredient": "sugar, light-brown",
+    "amount_substitution": [
+      "1 cup",
+      "1 cup granulated sugar plus 1 to 2 tablespoons molasses; or 1/2 cup dark-brown sugar plus 1/2 cup granulated sugar"
+    ],
+    "ingredient_category": "sugar",
+    "ingredient_property": "light-brown",
+    "auxiliary_search": "light brown sugar"
+  },
+  {
+    "ingredient": "tomatoes, canned",
+    "amount_substitution": [
+      "1 cup",
+      "1/2 cup tomato sauce plus 1/2 cup water; or 1/3 cups chopped fresh tomatoes, simmered"
+    ],
+    "ingredient_category": "tomatoes",
+    "ingredient_property": "canned",
+    "auxiliary_search": "canned tomatoes"
+  },
+  {
+    "ingredient": "tomato ketchup",
+    "amount_substitution": [
+      "1/2 cup",
+      "1/2 cup tomato sauce plus 2 tablespoons sugar, 1 tablespoon vinegar, and 1/8 teaspoon ground cloves"
+    ],
+    "ingredient_category": "tomato ketchup",
+    "ingredient_property": null,
+    "auxiliary_search": "ketchup"
+  },
+  {
+    "ingredient": "tomato puree",
+    "amount_substitution": [
+      "1 cup",
+      "1/2 cup tomato paste plus 1/2 cup water"
+    ],
+    "ingredient_category": "tomato puree",
+    "ingredient_property": null,
+    "auxiliary_search": "puree"
+  },
+  {
+    "ingredient": "vanilla bean",
+    "amount_substitution": [
+      "1-inch bean",
+      "1 teaspoon vanilla extract or substitute bourbon, rum, or whiskey, using two times the amount of vanilla called for in the recipe."
+    ],
+    "ingredient_category": "vanilla bean",
+    "ingredient_property": null,
+    "auxiliary_search": "bean"
+  },
+  {
+    "ingredient": "vinegar, apple cider",
+    "amount_substitution": [
+      "1 tablespoon",
+      "malt, white-wine, or rice vinegar"
+    ],
+    "ingredient_category": "vinegar",
+    "ingredient_property": "apple cider",
+    "auxiliary_search": "apple cider vinegar"
+  },
+  {
+    "ingredient": "vinegar, balsamic",
+    "amount_substitution": [
+      "1 tablespoon",
+      "1 tablespoon red- or white-wine vinegar plus 1/2 teaspoon sugar"
+    ],
+    "ingredient_category": "vinegar",
+    "ingredient_property": "balsamic",
+    "auxiliary_search": "balsamic vinegar"
+  },
+  {
+    "ingredient": "vinegar, red-wine",
+    "amount_substitution": [
+      "1 tablespoon",
+      "white-wine, sherry, champagne, or balsamic vinegar."
+    ],
+    "ingredient_category": "vinegar",
+    "ingredient_property": "red-wine",
+    "auxiliary_search": "red wine vinegar"
+  },
+  {
+    "ingredient": "vinegar, rice",
+    "amount_substitution": [
+      "1 tablespoon",
+      "apple-cider, champagne, or white-wine vinegar"
+    ],
+    "ingredient_category": "vinegar",
+    "ingredient_property": "rice",
+    "auxiliary_search": "rice vinegar"
+  },
+  {
+    "ingredient": "vinegar, white wine",
+    "amount_substitution": [
+      "1 tablespoon",
+      "apple-cider, champagne, fruit (raspberry), rice, or red-wine vinegar"
+    ],
+    "ingredient_category": "vinegar",
+    "ingredient_property": "white wine",
+    "auxiliary_search": "white wine vinegar"
+  },
+  {
+    "ingredient": "yeast",
+    "amount_substitution": [
+      "1 cake (3/5 oz.)",
+      "1 package (1/4 ounce) or 1 scant tablespoon active dried yeast"
+    ],
+    "ingredient_category": "yeast",
+    "ingredient_property": null,
+    "auxiliary_search": null
+  }
+]
