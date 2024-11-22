@@ -1,4 +1,3 @@
-from cobot_core.apl.utils.commands.image_list_scroll_to_index_directive import ImageListScrollToIndexDirective
 from taco.response_generators.taco_rp.choice.treelets.taco_data_manager import get_task_recommendation
 from taco.response_generators.taco_rp.choice.treelets.utils.general import check_exception, get_current_choices, select_followup_template, set_query_user_attributes, update_choice_idx
 from taco.response_generators.taco_rp.choice.treelets.utils import visuals
@@ -7,13 +6,12 @@ from taco.response_generators.taco_rp import apl, wikihow_helpers
 from taco.response_generators.taco_rp import examples
 
 
-def taco_wikihow_choice(current_state, last_state, user_attributes, toolkit_service_client):
+def taco_wikihow_choice(current_state, last_state, user_attributes):
     """
     Arguments:
         current_state
         last_state
         user_attributes
-        toolkit_service_client
     Returns:
         dict with keys "response" and "shouldEndSession".
         "response" is the speaking response.
@@ -40,30 +38,11 @@ def taco_wikihow_choice(current_state, last_state, user_attributes, toolkit_serv
     
     speak_output = get_wikihow_query_speak_output(tasks, query, intent, current_state, user_attributes)
     
-    is_apl_supported = current_state.supported_interfaces.get("apl", False)
     choice_start_idx = getattr(user_attributes, 'choice_start_idx', 0)
     cont_reqs = getattr(user_attributes, 'cont_reqs', 0)
     cont_reqs = 0 if cont_reqs is None else cont_reqs
 
-    if not is_apl_supported:
-        return {"response": speak_output, "shouldEndSession": False}
-    elif wikihow_query_result and choice_start_idx < len(wikihow_query_result) and choice_start_idx < 9 and cont_reqs <= 3:
-        wikihow_tasks = wikihow_helpers.query_to_tasks(wikihow_query_result)
-        apl_directive = get_task_directive(wikihow_tasks, query)
-        scroll_command_directive = ImageListScrollToIndexDirective()
-
-        if intent == 'MoreChoiceIntent':
-            scroll_command_directive = scroll_command_directive.build_directive(choice_start_idx + 2)
-        else:
-            scroll_command_directive = scroll_command_directive.build_directive(choice_start_idx)
-        
-        if first_visit or intent in ['CancelIntent', 'GoBackIntent', 'NaviPreviousIntent']:
-            set_query_user_attributes(wikihow_query_result, user_attributes)
-            return {"response": speak_output, "directives": [apl_directive, scroll_command_directive], "shouldEndSession": False}
-        else:
-            return {"response": speak_output, "directives": [scroll_command_directive], "shouldEndSession": False}
-    else:
-        return {"response": speak_output, "shouldEndSession": False}
+    return {"response": speak_output, "shouldEndSession": False}
 
 
 def get_wikihow_query_speak_output(tasks, query, intent, current_state, user_attributes):
@@ -92,10 +71,6 @@ def get_wikihow_query_speak_output(tasks, query, intent, current_state, user_att
 
     speak_output = ''
 
-    # num_results should never be 0 now
-    # if num_results == 0:
-    #     speak_output = template_manager.no_results(wikihow=True).substitute(query=query)
-
     if choice_start_idx < num_results and choice_start_idx < 9 and cont_reqs <= 3:
         speak_output = select_wikihow_template(query, current_tasks, num_results, choice_start_idx, current_state, user_attributes)
     else:
@@ -119,7 +94,6 @@ def select_wikihow_template(query, tasks, num_results, choice_start_idx, current
         select_segment1(query, first_visit, is_rec, search_timeout, no_result) + 
         select_segment2(choice_start_idx, is_rec, num_results, first_visit) +
         select_segment3(tasks, user_attributes)
-        #select_followup_template(num_results, choice_start_idx, first_visit)
     )
 
     setattr(user_attributes, 'first_visit', False)

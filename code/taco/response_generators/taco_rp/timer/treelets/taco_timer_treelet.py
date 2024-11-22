@@ -8,9 +8,6 @@ from taco.core.response_generator import Treelet
 from taco.core.entity_linker.entity_groups import EntityGroupsForExpectedType
 from taco.core.util import infl
 
-from ask_sdk_model.services.timer_management import *
-from ask_sdk_model.services.service_exception import ServiceException
-
 from taco.response_generators.taco_rp.timer.state import State, ConditionalState
 
 logger = logging.getLogger('tacologger')
@@ -82,7 +79,7 @@ class taco_timer_Treelet(Treelet):
             if "cancel all" in text:
                 timer_manager.cancel_all_timers()
                 speech_output = "All timers cancelled successfully "
-        except ServiceException as se:
+        except Exception as se:
             if 'Unauthorized' in str(se):
                 speak_output = (
                     "I need your permission to do this. " + 
@@ -93,7 +90,6 @@ class taco_timer_Treelet(Treelet):
                                        needs_prompt=False, state=state, cur_entity=None,
                                        conditional_state=ConditionalState(
                                            prompt_treelet=self.name,))
-                #return self._add_voice_permissions()
 
         return ResponseGeneratorResult(text=speech_output, priority=priority,
                                        needs_prompt=False, state=state, cur_entity=None,

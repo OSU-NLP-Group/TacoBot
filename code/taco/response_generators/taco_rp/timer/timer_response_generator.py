@@ -19,8 +19,6 @@ from taco.core.offensive_classifier.offensive_classifier import OffensiveClassif
 
 from taco.core.response_generator.response_type import add_response_types, ResponseType
 
-from cobot_core.service_module_config import ServiceModuleConfig
-
 from taco.response_generators.taco_rp.timer.treelets.timer import TimerManagement
 from taco.response_generators.taco_rp.timer.state import State, ConditionalState
 
@@ -43,7 +41,7 @@ class TIMER_Generator(ResponseGenerator):
             'class': 'tmp',
             'url': 'local'
         }
-        service_module_config = ServiceModuleConfig(module)
+
         if hasattr(state_manager, 'session_history') == False:
             state_manager.session_history = []
         if hasattr(state_manager.user_attributes, 'map_attributes') == False:

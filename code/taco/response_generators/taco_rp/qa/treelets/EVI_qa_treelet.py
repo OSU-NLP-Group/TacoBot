@@ -7,7 +7,6 @@ from taco.core.entity_linker.entity_groups import ENTITY_GROUPS_FOR_EXPECTED_TYP
 from taco.core.response_generator import Treelet
 from taco.core.entity_linker.entity_groups import EntityGroupsForExpectedType
 from taco.core.util import infl
-from cobot_core.service_module import ToolkitServiceModule
 
 from taco.response_generators.taco_rp.qa.state import State, ConditionalState
 import requests
@@ -56,7 +55,7 @@ RESPONSE_NOT_ALLOWED_SUBSTRINGS = {
 _sessions = requests.Session()
 
 
-class TacoEVI(ToolkitServiceModule):
+class TacoEVI():
 
     def execute(self, state_manager):
         text = state_manager.current_state.text

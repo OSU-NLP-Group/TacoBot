@@ -8,7 +8,7 @@ from profanity_check import predict
 
 logger = logging.getLogger('tacologger')
 
-def manage_search_data(current_state, last_state, user_attributes, toolkit_service_client):
+def manage_search_data(current_state, last_state, user_attributes):
 	text = getattr(current_state, 'text', '')
 	intent = getattr(current_state, 'parsed_intent', '')
 	query = getattr(user_attributes, 'query', '')
@@ -42,14 +42,9 @@ def manage_search_data(current_state, last_state, user_attributes, toolkit_servi
 
 
 		wikihow_query_result, recipe_query_result = read_search_results(
-			toolkit_service_client, 
 			wikihow_search, 
 			recipe_search
 		)
-
-		# print('wikihow_search = ', [result["_source"]["articleTitle"] for result in wikihow_query_result])
-
-		# print('wikihow_search = ', wikihow_search)
 
 		if is_wikihow:
 			if len(wikihow_query_result) > 0:
@@ -86,7 +81,7 @@ def manage_search_data(current_state, last_state, user_attributes, toolkit_servi
 	# logger.taco_merge(f'1 user_attributes.query_result = {repr(user_attributes.query_result)[:200]}')
 
 
-def read_search_results(toolkit_service_client, wikihow_search, recipe_search):
+def read_search_results(wikihow_search, recipe_search):
 	wikihow_query_result = []
 	recipe_query_result = {'documents': []}
 		
@@ -95,8 +90,7 @@ def read_search_results(toolkit_service_client, wikihow_search, recipe_search):
 			len(wikihow_search['ranked_tasks']) > 0
 	):
 		wikihow_query_result = filter_bad_results(
-				wikihow_search['ranked_tasks'], 
-				toolkit_service_client
+				wikihow_search['ranked_tasks']
 			)
 		
 	if (recipe_search is not None and
@@ -155,14 +149,12 @@ def get_recipe_category(hour):
 		return random.choice(['dessert', 'snack', 'smoothie'])
 
 
-def filter_bad_results(wikihow_query_result, toolkit_service_client):
+def filter_bad_results(wikihow_query_result):
 	titles = [result["_source"]["articleTitle"] for result in wikihow_query_result]
 	filtered_results = []
 	need_filter = []
 
 	try:
-		# pred = toolkit_service_client.batch_detect_profanity(titles)
-		# need_filter = [result['overallClass'] for result in pred['offensivenessClasses']]
 		need_filter = list(predict(titles))
 		filtered_results = [
 			wikihow_query_result[i] 

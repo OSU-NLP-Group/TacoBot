@@ -1,4 +1,3 @@
-from cobot_core.apl.utils.commands.image_list_scroll_to_index_directive import ImageListScrollToIndexDirective
 from taco.response_generators.taco_rp.choice.treelets.taco_data_manager import select_recipe_recommendation
 from taco.response_generators.taco_rp.choice.treelets.utils.general import check_exception, get_and_list_prompt, get_current_choices, select_followup_template, set_query_user_attributes, update_choice_idx, get_constraints
 from taco.response_generators.taco_rp.choice.treelets.utils import visuals
@@ -9,15 +8,12 @@ import logging
 
 logger = logging.getLogger('tacologger')
 
-def taco_recipe_choice(current_state, last_state, user_attributes, toolkit_service_client):
+def taco_recipe_choice(current_state, last_state, user_attributes):
     intent = getattr(current_state, 'parsed_intent', None)
     query = getattr(user_attributes, 'query', None)
     first_visit = getattr(user_attributes, 'first_visit', True)
 
     recipe_query_result = getattr(user_attributes, 'query_result', None)
-
-    # logger.taco_merge(f'3 user_attributes.query_result = {repr(user_attributes.query_result)[:200]}')
-    # logger.taco_merge(f'recipe_query_result =  {repr(recipe_query_result)[:200]}')
 
     recipes = []
     if (recipe_query_result is not None and 
@@ -39,29 +35,11 @@ def taco_recipe_choice(current_state, last_state, user_attributes, toolkit_servi
         return {"response": speak_output, "shouldEndSession": False}
     speak_output = get_recipe_query_speak_output(recipes, query, intent, current_state, user_attributes)
 
-    is_apl_supported = current_state.supported_interfaces.get('apl', False)
     choice_start_idx = getattr(user_attributes, 'choice_start_idx', 0)
     cont_reqs = getattr(user_attributes, 'cont_reqs', 0)
     cont_reqs = 0 if cont_reqs is None else cont_reqs
 
-    if not is_apl_supported:
-        return {"response": speak_output, "shouldEndSession": False}
-    elif recipe_query_result and choice_start_idx < len(recipes) and choice_start_idx < 9 and cont_reqs <= 3:
-        document_directive = get_recipe_query_document(recipes, query)
-        scroll_command_directive = ImageListScrollToIndexDirective()
-
-        if intent == 'MoreChoiceIntent':
-            scroll_command_directive = scroll_command_directive.build_directive(choice_start_idx + 2)
-        else:
-            scroll_command_directive = scroll_command_directive.build_directive(choice_start_idx)
-
-        if first_visit or intent in ['CancelIntent', 'GoBackIntent', 'NaviPreviousIntent']:
-            set_query_user_attributes(recipe_query_result, user_attributes)
-            return {"response": speak_output, "directives": [document_directive, scroll_command_directive], "shouldEndSession": False}
-        else:
-            return {"response": speak_output, "directives": [scroll_command_directive], "shouldEndSession": False}
-    else:
-        return {"response": speak_output, "shouldEndSession": False}
+    return {"response": speak_output, "shouldEndSession": False}
 
 
 def get_recipe_query_speak_output(recipes, query, intent, current_state, user_attributes):
@@ -115,7 +93,6 @@ def select_recipe_template(query, recipes, num_results, choice_start_idx, curren
         ) +
         add_inst(choice_start_idx, num_results, first_visit) +
         select_segment3(recipes, user_attributes)
-        #select_followup_template(num_results, choice_start_idx, first_visit)
     )
 
     setattr(user_attributes, 'first_visit', False)

@@ -25,11 +25,6 @@ ResponseType = add_response_types(ResponseType, ADDITIONAL_RESPONSE_TYPES)
         
 logger = logging.getLogger('tacologger')
 
-
-# logger.taco_merge('NAME2TREELET = ')
-# logger.taco_merge('NAME2TREELET = ', NAME2TREELET)
-# taco_merge
-
 class Lanuch_Generator(ResponseGenerator):
     name='WELCOME'
 
@@ -37,8 +32,6 @@ class Lanuch_Generator(ResponseGenerator):
 
 
         self.lanuch_treelet = WELCOME_Treelet(self)
-        
-        # logger.taco_merge(f'{self.name} TREELET =  {NAME2TREELET}')
 
         treelets = {
             treelet.name: treelet for treelet in [self.lanuch_treelet]
@@ -73,7 +66,3 @@ class Lanuch_Generator(ResponseGenerator):
         state = super().update_state_if_chosen(state, conditional_state)
         return state
 
-    # def update_state_if_not_chosen(self, state: State, conditional_state: Optional[ConditionalState]) -> BaseState:
-    #     state = super().update_state_if_not_chosen(state, conditional_state)
-    #     state.next_treelet_str = None
-    #     return state

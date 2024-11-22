@@ -1,7 +1,7 @@
 from taco.response_generators.taco_rp import recipe_helpers
 
 
-def taco_wikihow_compare(current_state, last_state, user_attributes, toolkit_service_client):
+def taco_wikihow_compare(current_state, last_state, user_attributes):
     wikihow_query_result = getattr(user_attributes, 'query_result', None)
     choice_start_idx = getattr(user_attributes, 'choice_start_idx', 0)
     num_results = len(wikihow_query_result)
@@ -53,7 +53,7 @@ def get_wikihow_info(wikihow_query_result, choice_start_idx, num_results):
     return current_choices, views, ratings 
 
 
-def taco_recipe_compare(current_state, last_state, user_attributes, toolkit_service_client):
+def taco_recipe_compare(current_state, last_state, user_attributes):
     recipe_query_result = getattr(user_attributes, 'query_result', None)
     choice_start_idx = getattr(user_attributes, 'choice_start_idx', 0)
     
